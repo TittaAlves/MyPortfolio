@@ -59,6 +59,19 @@ body {
     font-size: medium;
     text-align: center;
 }
+
+#contact img {
+    width: 40px;
+    margin: 10px;
+    padding: 10px;
+}
+
+.socialmedia a:visited,
+.socialmedia a:active,
+.socialmedia a:link {
+    color: transparent;
+}
+
 h2 {
     font-weight: bold;
     font-size: 2em;
