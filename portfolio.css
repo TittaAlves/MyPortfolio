@@ -84,11 +84,12 @@ ul li {
     padding: 30px 10px;
 }
 
-nav ul li a:link, nav ul li a:visited {
+ a:link,  a:visited {
     color: white;
     border-bottom: none;
     font-weight: bold;
 }
+
 
 nav ul li.selected {
     background-color:rgb(167, 132, 132);
