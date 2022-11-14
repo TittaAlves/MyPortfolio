@@ -1,14 +1,8 @@
 body {
     background-color: rgb(32, 32, 32);
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: small;
-}
-
-.logo-title {
-    color: white;
-    text-align: center;
-    font-size: 2.3em;
-    font-weight: bold;
+    padding: 20px 20px;
 }
 
 .container {
@@ -19,12 +13,20 @@ body {
     width: 100%;
 }
 
+.myname {
+    text-align: center;
+    font-size: 1.7em;
+}
+
+
 #logo {
     text-align: center;
 }
 
 #logo img {
-    width: 180px;
+    width: 150px;
+    border-radius: 70%;
+    text-align: center;
 }
 
 #languages {
@@ -44,26 +46,42 @@ body {
 }
 
 #menu {
-    width: 150px;
+    width: 350px;
     margin-right: 20px;
     border-color: white;
     border-width: thin;
     border-style: solid;
     color: white;
-    padding: 10px 30px 30px 30px;
+    padding: 10px;
 
+}
+
+#menu ul li {
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
 }
 
 #main {
     color: white;
-    font-size: medium;
-    text-align: center;
+    font-size: 1.3em;
+    text-align: left;
 }
+
+#main img {
+    width: 15px;
+
+}
+
 
 #contact img {
     width: 40px;
     margin: 10px;
     padding: 10px;
+}
+
+#presentation {
+    display: flex;
 }
 
 .socialmedia a:visited,
@@ -74,7 +92,7 @@ body {
 
 h2 {
     font-weight: bold;
-    font-size: 2em;
+    font-size: 1.5em;
     font-style: italic;
     border-bottom: outset rgb(166, 245, 241);
     text-align: center;
@@ -94,7 +112,7 @@ nav ul {
 }
 ul li {
     /* display:inline; */
-    padding: 30px 10px;
+    padding: 0px 10px;
 }
 
  a:link,  a:visited {
@@ -106,4 +124,16 @@ ul li {
 
 nav ul li.selected {
     background-color:rgb(167, 132, 132);
+}
+
+li img {
+    width: 30px;
+    margin: 5px;
+    padding: 10px;
+}
+
+#main .myphoto {
+    width: 400px;
+    margin: 0 30px 30px 0;
+    border-radius: 5%;
 }
