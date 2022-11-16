@@ -29,10 +29,17 @@ body {
     text-align: center;
 }
 
-#skills {
-    
+.skills {
+    display: flex;
+    gap: 3em;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 0 ;
 }
 
+.skills .skill {
+    text-align: center;
+}
 
 #skills img {
     width: 50px;
@@ -66,6 +73,13 @@ body {
     width: 15px;
 }
 
+#contacts {
+    display: flex;
+    gap: 3em;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 0 ;
+}
 
 #contact img {
     width: 40px;
@@ -81,6 +95,22 @@ body {
     color: white;
     font-size: 1.3em;
     text-align: left;
+}
+
+.resume-items {
+    display: flex;
+}
+
+.resume-item {
+    width: 100%;
+    border-left: 4px dotted rgb(166, 245, 241);
+    padding: 0 0 30px 30px;
+}
+
+.resume-item h3 {
+    color: rgb(166, 245, 241);
+    font-size: 1.3em;
+
 }
 
 .socialmedia a:visited,
@@ -99,6 +129,7 @@ h2 {
 
 h2, h3 {
     color: white;
+    
 }
 
 nav {
